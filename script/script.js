@@ -9,12 +9,33 @@
 //     i = i * 2;
 //     console.log(i);
 // }
-let input = "";
+// let input = "";
 
-do{
-    input = prompt("What is your name?");
-}
-while(Number(input) || input == 0);
+// do{
+//     input = prompt("What is your name?");
+// }
+// while(Number(input) || input == 0);
 
-alert("Welcome " + input);
-alert(`Welcome ${input}`);
+// alert("Welcome " + input);
+// alert(`Welcome ${input}`);
+
+let friuts = ["apple","banana"];
+friuts.push("orange");
+friuts.pop();
+friuts.unshift("mangos");
+friuts.shift();
+console.log(friuts);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
